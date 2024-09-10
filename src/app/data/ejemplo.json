@@ -1,0 +1,63 @@
+[
+    {
+      "nombre": "Juan Pérez",
+      "calificacion": 4.5,
+      "fecha_retiro": "2024-09-01",
+      "fecha_entrega": "2024-09-03",
+      "importe": 150.75,
+      "formas_de_pago": ["tarjeta", "contado"],
+      "pago_tarjeta": {
+        "numero": "1234-5678-9012-3456",
+        "pin": "1234",
+        "nombre_completo": "Juan Alberto Pérez",
+        "tipo_documento": "DNI",
+        "numero_documento": "12345678"
+      }
+    },
+    {
+      "nombre": "María López",
+      "calificacion": 5.0,
+      "fecha_retiro": "2024-09-02",
+      "fecha_entrega": "2024-09-04",
+      "importe": 200.00,
+      "formas_de_pago": ["contra entrega"]
+    },
+    {
+      "nombre": "Carlos García",
+      "calificacion": 3.8,
+      "fecha_retiro": "2024-09-03",
+      "fecha_entrega": "2024-09-05",
+      "importe": 100.50,
+      "formas_de_pago": ["tarjeta"],
+      "pago_tarjeta": {
+        "numero": "9876-5432-1098-7654",
+        "pin": "5678",
+        "nombre_completo": "Carlos Eduardo García",
+        "tipo_documento": "Pasaporte",
+        "numero_documento": "P12345678"
+      }
+    },
+    {
+      "nombre": "Laura Méndez",
+      "calificacion": 4.2,
+      "fecha_retiro": "2024-09-04",
+      "fecha_entrega": "2024-09-06",
+      "importe": 80.30,
+      "formas_de_pago": ["contado", "contra-entrega"]
+    },
+    {
+      "nombre": "Ana González",
+      "calificacion": 4.9,
+      "fecha_retiro": "2024-09-05",
+      "fecha_entrega": "2024-09-07",
+      "importe": 120.00,
+      "formas_de_pago": ["tarjeta", "contado", "contra-entrega"],
+      "pago_tarjeta": {
+        "numero": "4567-1234-5678-9123",
+        "pin": "4321",
+        "nombre_completo": "Ana María González",
+        "tipo_documento": "DNI",
+        "numero_documento": "87654321"
+      }
+    }
+  ]
